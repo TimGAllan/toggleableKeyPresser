@@ -10,8 +10,8 @@ By default, the script will press `2` every 200 ms whenever the Caps lock is ena
 
 To change the frequency of pressing, change 200 value to a desired interval in milliseconds.
 
-![Interval](toggleableKeyPresser/Assets/Images/Interval.jpg)
+![Interval](toggleableKeyPresser/Assets/Images/interval.jpg)
 
 To change the key to be pressed, change the literal `2` in the statement below. For a full explanation of support keys and syntax, refer to https://pypi.org/project/keyboard/
 
-![Key](toggleableKeyPresser/Assets/Images/Key.jpg)
+![Key](toggleableKeyPresser/Assets/Images/key.jpg)
