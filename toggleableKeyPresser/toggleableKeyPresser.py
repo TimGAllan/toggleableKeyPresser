@@ -8,6 +8,18 @@ def CAPSLOCK_STATE():
     VK_CAPITAL = 0x14
     return hllDll.GetKeyState(VK_CAPITAL)
 
+# Function to Return True is Caps Lock is enabled.
+def SCROLLLOCK_STATE():
+    hllDll = ctypes.WinDLL ("User32.dll")
+    VK_SCROLL = 0x91
+    return hllDll.GetKeyState(VK_SCROLL)
+
+# Function to Return True is Caps Lock is enabled.
+def NUMLOCK_STATE():
+    hllDll = ctypes.WinDLL ("User32.dll")
+    VK_NUMLOCK = 0x90
+    return hllDll.GetKeyState(VK_NUMLOCK)
+
 def main():
     
     # Wait 3 seconds before starting
